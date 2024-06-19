@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta http-equiv="refresh" content="5; URL=go:next.html" />
+  <meta charset="UTF-8">
+  <title>CodePen - Clipboard.js - Copy text from another element</title>
+  <link rel='stylesheet' href='https://clipboardjs.com/bower_components/primer-css/css/primer.css'>
+<link rel='stylesheet' href='https://clipboardjs.com/assets/styles/main.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <center>
+        <h1>"Attention!</h1>
+
+<p>From CashTube: Your passcode is: 51161</p>
+
+<p>Please copy and save it securely. If misplaced, you'll need to purchase a new one.</p>
+
+<p>Thank you for using CashTube!"</p>
+    </center>
+<!-- partial:index.partial.html -->
+<div class="example">
+  <div class="input-group">
+  <input id="foo" type="text" value="15564">
+    <span class="input-group-button">
+      <button class="btn" type="button" data-clipboard-demo="" data-clipboard-target="#foo">
+        <img class="clippy" src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard">
+      </button>
+    </span>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
